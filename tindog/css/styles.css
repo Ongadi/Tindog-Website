@@ -1,0 +1,180 @@
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.fa-brands {
+  margin-right: 5px;
+}
+
+/* Title Image */
+.iphone {
+  height: 550px;
+  position: absolute;
+  top: 200px;
+  transform: rotate(20deg);
+  left: 57%;
+  width: 300px;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features {
+  background-color: white;
+  padding: 7% 15% 7%;
+  position: relative;
+
+}
+
+.top-paragrapgh {
+  padding: 0 5% 0 5%;
+  color: #8f8f8f;
+}
+
+.top-boxes {
+  padding: 5%;
+}
+
+/* Top Icons */
+.icon {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffff;
+
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 7% 15%;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action  */
+#cta {
+  background-color: #ef8172;
+  color: #ffff;
+  padding: 7% 20%;
+
+}
+
+.call-action {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.call-t-action {
+  margin-right: 30px;
+}
+
+/* Footer */
+#footer {
+  padding: 5% 10%;
+
+}
+
+.ft-icons {
+  margin: 10px;
+}
+
+@media (max-width: 1100px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
